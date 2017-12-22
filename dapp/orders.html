@@ -1,0 +1,24 @@
+
+<head>
+    <title>Blockchain Order Contract</title>
+</head>
+
+<body>
+    <h1>Orders</h1>
+    {{> orders}}
+</body>
+
+<template name="orders">
+	<table border="1">
+		<tr>
+			<th>Order Number</th>
+			<th>Order Line</th>
+		</tr>
+	{{#each order}}
+		<tr>
+	    	<td>{{orderId}}</td>
+	    	<td>{{product}}</td>
+	    </tr>
+	{{/each}}
+	</table>
+</template>
