@@ -1,0 +1,13 @@
+[Unit]
+Description=blockchain orders app
+After=multi-user.target
+ 
+[Service]
+Type=simple
+WorkingDirectory=/home/larry/Meteor/orders
+ExecStart=/bin/sh orders.sh start
+Restart=on-abort
+User=root
+ 
+[Install]
+WantedBy=multi-user.target
