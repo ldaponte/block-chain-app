@@ -1,3 +1,6 @@
+# Running instance at:  
+##http://block-chain-client1.westeurope.cloudapp.azure.com
+
 # block-chain-app
 
 # Technologies used:
